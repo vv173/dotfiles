@@ -11,3 +11,6 @@ source <(kubectl completion bash)
 
 # Helm
 source <(helm completion bash)
+
+# tenv
+source <(tenv completion bash)
