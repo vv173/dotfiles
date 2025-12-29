@@ -19,8 +19,7 @@ alias l='ls -CF'
 # Open files, folders or URLs using the default application in the background
 alias open='xdg-open "$@" &>/dev/null & disown'
 
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
+# Add an "alert" alias for long running commands. Use like so: sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Print current branch name
@@ -30,4 +29,4 @@ alias current-branch='git branch --show-current | tr -d "\n"'
 alias copy-branch='git branch --show-current | tr -d "\n" | xclip -selection clipboard'
 
 # Replace kubectl with kubecolor
-alias kubectl="kubecolor"
+# alias kubectl="kubecolor"
