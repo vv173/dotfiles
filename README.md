@@ -1,5 +1,5 @@
 # About
-This repository contains configuration files for tools that I use daily and provision on each Linux machine that I use.
+This repository contains configuration files for tools that I install on all of my Linux machines and use on a daily basis.
 
 # Installation
 Clone the repo
